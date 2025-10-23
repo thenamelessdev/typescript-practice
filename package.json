@@ -2,7 +2,7 @@
   "name": "typescript-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/thenamelessdev/typescript-practice#readme",
   "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.9.1",
+    "express": "^5.1.0",
     "typescript": "^5.9.3"
   }
 }
